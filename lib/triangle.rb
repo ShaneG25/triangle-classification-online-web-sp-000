@@ -24,6 +24,6 @@ class Triangle
   
   class TriangleError < StandardError
     def message 
-      ""
+      "Those are not eligable "
   end 
 end
