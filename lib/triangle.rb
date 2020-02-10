@@ -24,6 +24,6 @@ class Triangle
   
   class TriangleError < StandardError
     def message 
-      "Those are not eligable "
+      "Those are not eligable triangle measurements"
   end 
 end
