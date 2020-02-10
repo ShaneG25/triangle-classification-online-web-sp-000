@@ -14,5 +14,5 @@ class Triangle
     end 
   end 
   if (@side1 == @side2 && @side2 == @side3)
-    return :
+    return :equilateral
 end
