@@ -17,5 +17,5 @@ class Triangle
     return :equilateral
     elsif (@side1 == @side2 || @side2 == @side3 || @side1 == @side3)
     return :isosceles
-  else ()
+  else (@side1 != @side2)
 end
